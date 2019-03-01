@@ -1,0 +1,27 @@
+body{
+  background-image: url(https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+background-position: center;
+background-size: cover;
+background-origin: content-box;
+}
+p{
+  color: white;
+  text-decoration: underline;
+  font-style: normal;
+  font-weight: bold;
+}
+h1{
+  color: #A9CCE3;
+  text-align: center;
+}
+h3{
+  color: black;
+  text-decoration: underline;
+  text-align: center;
+}
+.form-group{
+  color: #C39BD3;
+}
+form{
+text-align: center;
+}
