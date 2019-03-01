@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+    <title>Pig-dice game</title>
+  </head>
+  <body>
+    <h1></h1>
+      <div class="container">
+      <h1>Let's Start Rolling!</h1>
+      <h1>Pig Dice </h1>
+      <h3>Gameplay</h3>
+      <p>The pig game is not that much complicated here are some tips to help you understand the game;<br>
+    1)  its a game between two players each has his/her turn to roll the dice.<br>
+    2) whenever player1 rolls the dice and doesn't score anything the game tells player2 that it is his turn to roll the dice.<br>
+3)  Each player get the chance to roll the dice x3 whatever he scores should be equal to total of 11.<br>
+4) whoever is first to 100 points wins the game.<br>
+5) the dice has 6 dots with 4 sides.  </p>
+<div class="images">
+  <p>for more details Visit <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)">Here</a></p>
+</div>
+        <form id="player-1">
+          <div class="form-group">
+            <label for="player1Name">Player 1 Name:</label>
+            <input type="text" name="player1 Name" value="">
+
+          </div>
+        </form>
+        <form id="player-2">
+          <div class="form-group">
+            <label for="player2Name">Player 2 Name:</label>
+            <input type="text" name="player2 Name" value="">
+        </form>
+
+        <div class="col-md-6">
+          <h2>Player 1: <span id="player1Name"><span></h2>
+          <button onclick="rollDiceb()" id="player1-roll" class="btn btn-success">Roll</button>
+          <h1 id="p1points"></h1>
+          <button id="player1-roll" class="btn primary">Hold</button>
+
+          <h2>Player 2: <span id="player2Name"><span></h2>
+          <button onclick="rollDiceb()" id="player2-roll" class="btn btn-success">Roll</button>
+          <h1 id="p2points"></h1>
+          <button id="player2-roll" class="btn btn-primary">Hold</button><br>
+
+          <button id="endGame">END GAME</button>
+        </div>
+    </div>
+<script src="js/scripts.js"></script>
+<script src="js/jquery-3.3.1.js"></script>
+  </body>
+</html>
