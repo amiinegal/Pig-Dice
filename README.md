@@ -1,18 +1,21 @@
 # Pig Dice Game
+A pig dice game involving two players
+## Author's name
 By amiin adan
 ## Descriptin
-
+On every turn, each player repeatedly rolls a dice and after couple attempts gets a score not more than 11. if he is able to get those points he is declared as the winner and same applys to the other player.
 ## Setup Instructions
 Click on the fork button on the top right part of your screen.
 Click on the green 'clone or download' button to copy the project on your PC
 # Behavior Driven Development
 Behavior	Input	Output
-Give a random number	User rolls die	Displays random number between 1-6
-Disable button	User clicks 'hold'	Roll die button for player is disabled
-Clear scoreboard	Die lands on 1	Entire scoreboard is cleared
-Announce winner	User reaches 100pts	Declares winner
+|  Behavior | input  | Output  |   |
+|---|---|---|---|
+| player1 and player2 display their names  |  click roll | results are generated  |   |
+| plaery1 starts play and clicks roll  |  player2 enters play and on his turn rolls the dice |   |   |
+
 Link to live site
-https://amiinegal.github.io/quiz-board/
+https://amiinegal.github.io/Pig-Dice/
 
 ## Technologies used
 HTML
