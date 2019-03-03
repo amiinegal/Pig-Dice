@@ -26,10 +26,13 @@ p{
   color:#E9F7EF;
 }
 a{
-  color: silver;
+  color: blue;
 }
 .dice{
   text-decoration: none;
   text-transform: capitalize;
   color:white;
+}
+placeholder{
+  color: white;
 }
