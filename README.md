@@ -1,20 +1,16 @@
-# Pig-Dice
+# Pig Dice Game
 By amiin adan
-
 ## Descriptin
 
 ## Setup Instructions
 Click on the fork button on the top right part of your screen.
 Click on the green 'clone or download' button to copy the project on your PC
 # Behavior Driven Development
-|  Behavior	Input	Output | 
-|---|---|---|---|
-|Give a random number	User rolls die	Displays random number between 1-6
+Behavior	Input	Output
+Give a random number	User rolls die	Displays random number between 1-6
 Disable button	User clicks 'hold'	Roll die button for player is disabled
 Clear scoreboard	Die lands on 1	Entire scoreboard is cleared
-Announce winner	User reaches 100pts	Declares winner   |   |   |   |
-|---|---|---|---|
-
+Announce winner	User reaches 100pts	Declares winner
 Link to live site
 https://amiinegal.github.io/quiz-board/
 
