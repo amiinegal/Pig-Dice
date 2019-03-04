@@ -30,18 +30,27 @@
     </div>
     </div>
     <div class="col-md-4">
-    <table>
-      <tr>
-        <p class="text-center"id="score"></p>
-        </tr>
+      <button type="button" onclick="hold"class="btn btn-danger"id="hold">Hold</button>
+        <table style="width:60%">
+          <tr>
+            <th>Your Score</th>
+            <th>Your Score</th>
+          </tr>
+          <tr>
+            <td>Current <span id="current1"></span></td>
+            <td>Current <span id="current2"></span></td>
+          </tr>
+          <tr>
+            <td>Total <span id="score1"></span></td>
+            <td>Total <span id="score2"></span></td>
+          </tr>
         </table>
-        <button type="button" onclick="hold"class="btn btn-danger"id="hold">Hold</button>
       </div>
       <div class="col-md-4">
         <div class="player2">
       <h2>player two: <span id="jamila2"></span></h2>
       <div class="dice" id="player2">0</div>
-      <button onclick="rollDice2()" class="btn btn-primary">Roll</button>
+      <button id="roll2" class="btn btn-primary">Roll</button>
     </div>
     </div>
     </div>
