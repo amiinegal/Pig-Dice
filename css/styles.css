@@ -5,7 +5,7 @@ body{
   background-image: url(https://images.unsplash.com/photo-1510778670743-06254c768dad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   background-clip: padding-box;
-  backface-visibility: visible;
+  backface-visibility:hidden;
   background-attachment: scroll;
   background-position: center;
 }
