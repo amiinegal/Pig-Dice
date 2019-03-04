@@ -4,36 +4,45 @@
   <title>Pig Dice</title>
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Courgette" rel="stylesheet">
 </head>
 <body>
 
 <div class="container">
-  <h1>Pig Dice Game</h1>
-  <p>The pig dice game is not that much complicated here are some tips to help you understand the game;<br>
-<a href="https://en.wikipedia.org/wiki/Pig_(dice_game)" target="_blank">Read here For more info</a><br>
-<div class="container">
+  <div class="jumbotron">
+    <h1>Pig Dice Game</h1>
+    <p>The pig dice game is not that much complicated here are some tips to help you understand the game;<br>
+  <a href="https://en.wikipedia.org/wiki/Pig_(dice_game)" target="_blank">Read here For more info</a><br>
+  </div>
+<div class="row">
+  <form id="input">
 <label>player1 name</label>
-<input type="text" name="player1-name" placeholder="enter name"><br>
+<input type="text" placeholder="enter-name"id="kal"><br>
 <label>player2 Name</label>
-<input type="text" name="player2-name" placeholder="enter name"><br>
-    <div class="player1">
-      <h2>Player one</h2>
+<input type="text" placeholder="enter-name"id="mint"><br>
+<button type="submit" name="button"class="btn btn-info xs large">Enter</button>
+</form>
+    <div class="col-md-4">
+      <div class="player1">
+      <h2>Player one: <span id="jamila"></span></h2>
       <div class="dice" id="player1">0</div>
-      <button onclick="rollDice1()" class="btn btn-success">Roll</button>
+      <button onclick="rollDice1()" class="btn btn-primary">Roll</button>
     </div>
-    <br>
+    </div>
+    <div class="col-md-4">
     <table>
       <tr>
         <p class="text-center"id="score"></p>
         </tr>
         </table>
-        <br>
-<button type="button" onclick="hold"class="btn btn-danger"id="hold">Hold</button>
-      <br>
-    <div class="player2">
-      <h2>player two</h2>
+        <button type="button" onclick="hold"class="btn btn-danger"id="hold">Hold</button>
+      </div>
+      <div class="col-md-4">
+        <div class="player2">
+      <h2>player two: <span id="jamila2"></span></h2>
       <div class="dice" id="player2">0</div>
-      <button onclick="rollDice2()" class="btn btn-success">Roll</button>
+      <button onclick="rollDice2()" class="btn btn-primary">Roll</button>
+    </div>
     </div>
     </div>
 <script src="js/jquery-3.3.1.js"></script>
