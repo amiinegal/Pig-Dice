@@ -9,7 +9,7 @@ var total1 = p1 + pt1 ;
 player1.innerHTML = p1 && pt1 ;
 score.innerHTML = "You rolled"+p1+".";
 hold.innerHTML = total1;
-if (total1 > 11) {
+if (total1 > 100) {
   hold.innerHTML += "Hurrah!! you WIN";
 };
 };
@@ -24,7 +24,7 @@ function rollDice2() {
   player2.innerHTML = p2 && pt2 ;
   score.innerHTML = "You rolled "+p2+".";
   hold.innerHTML = total2;
-  if (total2 > 11) {
+  if (total2 > 100) {
     hold.innerHTML += "Hurrah!! you've WON"+".";
   };
 
