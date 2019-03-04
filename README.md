@@ -8,11 +8,9 @@ On every turn, each player repeatedly rolls a dice and after couple attempts get
 Click on the fork button on the top right part of your screen.
 Click on the green 'clone or download' button to copy the project on your PC
 # Behavior Driven Development
-Behavior	Input	Output
-|  Behavior | input  | Output  |   |
-|---|---|---|---|
-| player1 and player2 display their names  |  click roll | results are generated  |   |
-| plaery1 starts play and clicks roll  |  player2 enters play and on his turn rolls the dice |   |   |
+|  Behavior     | output  |
+|------------|---|
+|    A game between two players only each given his or her chance to roll the dice couple times if the total add up to 11 the winner is declared       |   the player to get 11 first is the winner| 
 
 Link to live site
 https://amiinegal.github.io/Pig-Dice/
