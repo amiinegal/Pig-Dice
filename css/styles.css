@@ -1,13 +1,14 @@
 body{
   background-color: #1A5276;
   margin: 50px;
-  padding: 100px;
-  background-image: url(https://images.unsplash.com/photo-1510778670743-06254c768dad?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+  background-image: url(https://images.unsplash.com/photo-1519744346361-7a029b427a59?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
   background-size: cover;
   background-clip: padding-box;
   backface-visibility:hidden;
   background-attachment: scroll;
   background-position: center;
+  font-family: 'Courgette', cursive;
+  font-size: 1.5rem;
 }
 button{
   display: grid;
@@ -15,15 +16,16 @@ button{
 }
 h1{
   color: #5D6D7E ;
+  text-align: center;
 }
 h2{
-  color: #1A5276;
+  color: white;
   text-align: center;
   text-decoration: underline;
 
 }
 p{
-  color:#E9F7EF;
+  color:white;
 }
 a{
   color: blue;
@@ -31,8 +33,17 @@ a{
 .dice{
   text-decoration: none;
   text-transform: capitalize;
-  color:white;
+  color:silver;
 }
-placeholder{
+.container{
   color: white;
+  font-family: 'Courgette', cursive;
+  font-size: 2rem;
+}
+.jumbotron{
+  background-color: #bbbbbb;
+}
+#input{
+margin-bottom: 2rem;
+  text-align: center;
 }
