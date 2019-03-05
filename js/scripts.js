@@ -24,15 +24,24 @@ var p1 = Math.ceil(Math.random() * 6);
     $("#player1").text(p1);
 if (p1 !==1) {
   roundScore1 += p1;
+
 } else {
   roundScore1 = 0;
 };
+
 };
+function winner(){
+  if(roundScore1>=20){
+    alert("winner!!");
+  };
+};
+
 
 function hold1() {
   gameScore1 += roundScore1;
   $("#score1").text(gameScore1);
 };
+
 
 var roundScore2 = 0;
 var gameScore2 = 0;
@@ -46,7 +55,7 @@ function rollDice2() {
   }
   else {
     roundScore2-=roundScore2;
-  }
+  };
 };
 
 
@@ -59,20 +68,25 @@ function hold2() {
 $(document).ready(function() {
   $("#roll1").click(function() {
     rollDice1();
+    winner();
     $("#current1").text(roundScore1)
   });
   $("#hold1").click(function() {
     hold1();
+    winner();
+
+
   });
 
   $("#roll2").click(function(){
     rollDice2();
-
+    winner();
     $("#current2").text(roundScore2)
   });
   $("#hold2").click(function() {
     hold2();
-  })
+   winner2();
+  });
 
  $("form#input").submit(function(event){
    event.preventDefault();
