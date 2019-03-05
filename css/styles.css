@@ -17,6 +17,7 @@ button{
 h1{
   color: #5D6D7E ;
   text-align: center;
+
 }
 h2{
   color: white;
@@ -27,6 +28,7 @@ h2{
 p{
   color:white;
 }
+  text-decoration: underline;
 a{
   color: blue;
 }

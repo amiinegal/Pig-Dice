@@ -1,22 +1,3 @@
-// function rollDice1() {
-//   var player1 = document.getElementById("player1") ;
-//   var hold = document.getElementById("hold") ;
-// var score = document.getElementById("score");
-// var p1 = Math.ceil(Math.random() * 6);
-// var pt1 = Math.ceil(Math.random() *6);
-// var hod = Math.ceil(Math.random() *0) +1;
-// var total1 = p1 + pt1 ;
-// if(p1!==1){
-//   return 0
-// }else{
-//   player1.innerHTML = p1 && pt1 ;
-//   score.innerHTML = "You rolled"+p1+".";
-//   hold.innerHTML = total1;
-// }
-// if (total1 > 11) {
-//   hold.innerHTML += "Hurrah!! you WIN";
-// };
-// };
   var roundScore1 = 0;
   var gameScore1 = 0;
 function rollDice1() {
